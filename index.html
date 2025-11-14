@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz de Fútbol </title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container mt-5 text-center quiz-box">
+    <h1 class="mb-3 text-light">⚽⚽ ¿Qué tanto sabes de Fútbol? ⚽⚽</h1>
+    <h2 class="text-warning mb-4">Desafía tus conocimientos con la IA</h2>
+
+    <div id="container" class="mb-3 text-light fs-5">
+      <span>&check; Correctas: <strong id="correctas">0</strong></span>
+      <span class="ms-3">&#10008; Incorrectas: <strong id="incorrectas">0</strong></span>
+    </div>
+
+
+    <div id="question-container" class="mb-4">
+      <p id="question" class="fs-4 text-light">Cargando pregunta de la IA...</p>
+      <div id="options" class="d-grid gap-2 w-75 mx-auto"></div>
+    </div>
+
+    <button id="nextBtn" class="btn btn-outline-light mt-3" style="display:none;">Siguiente pregunta</button>
+  </div>
+
+
+  <script src="js/scriptv2.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
